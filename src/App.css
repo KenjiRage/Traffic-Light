@@ -1,19 +1,19 @@
-#barra{
+#bar{
   background-color: black;
-  width: 20px;
-  height: 150px;
+  width: 30px;
+  height: 180px;
   margin: auto;
 }
 
-#semaforo{
+#traffic{
   background-color: black;
-  width: 150px;
+  width: 180px;
   height: 400px;
   margin: auto;
   border-radius: 10px;
   padding-top: 20px;
 }
-.luz{
+.light{
   margin: auto;
   width: 120px;
   height: 120px;
