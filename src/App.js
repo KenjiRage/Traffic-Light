@@ -14,8 +14,8 @@ class TrafficLight extends Component {
     render(){
       return(
         <div>
-          <div id="barra"></div>
-          <div id="semaforo">
+          <div id="bar"></div>
+          <div id="traffic">
             <div className= "luz roja" id= {this.state.estadoRoja} 
             onClick={()=>this.setState({estadoRoja: "encendida", estadoAmarilla: "apagada", estadoVerde: "apagada"})}>
             </div>
