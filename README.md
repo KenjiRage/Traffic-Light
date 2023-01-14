@@ -2,7 +2,8 @@
 
 ## Descripción
 
-Semáforo que enciende cada luz al ser seleccionada con el mouse. Realizado con React (Tarea día 13 PM)
+Proyecto realizado para 4Geeks Academy España, como parte del curso Full Stack Developer
+
 
 ## Vista Previa
 
