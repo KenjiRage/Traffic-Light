@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './styles.css';
+import './App.css';
 
 class TrafficLight extends Component {
   constructor(){
@@ -14,8 +14,8 @@ class TrafficLight extends Component {
     render(){
       return(
         <div>
-          <div id="bar"></div>
-          <div id="traffic">
+          <div id="barra"></div>
+          <div id="semaforo">
             <div className= "luz roja" id= {this.state.estadoRoja} 
             onClick={()=>this.setState({estadoRoja: "encendida", estadoAmarilla: "apagada", estadoVerde: "apagada"})}>
             </div>
